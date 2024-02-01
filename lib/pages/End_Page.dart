@@ -14,7 +14,7 @@ class End_Page extends StatelessWidget {
 
   // (this page) methods
   void _buildTriggered() {
-    Utils.log( filename, ' _buildTriggered()');
+    Utils.log( filename, '_buildTriggered()');
   }  
 
  @override

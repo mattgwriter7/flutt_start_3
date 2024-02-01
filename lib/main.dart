@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 
   // (this page) methods
   void _buildTriggered() {
-    Utils.log( filename, '==  "${ Config.app_name }" ver ${ Config.app_version } ==');
+    Utils.log( filename, '== "${ Config.app_name }" ver ${ Config.app_version } ==');
   }
 
   // This widget is the root of your application.

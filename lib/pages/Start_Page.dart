@@ -32,18 +32,18 @@ class _Start_PageState extends State<Start_Page> {
 
   @override
   void dispose() {
-    Utils.log( filename, ' dispose()');
+    Utils.log( filename, 'dispose()');
     super.dispose();
   }
 
   // (this page) methods
   void _buildTriggered() {
-    Utils.log( filename, ' _buildTriggered()');
+    Utils.log( filename, '_buildTriggered()');
   }
 
   // addPostFrameCallback" is called after build completed 
   void _addPostFrameCallbackTriggered( context ) {
-    Utils.log( filename, ' _addPostFrameCallbackTriggered() (build completed)');
+    Utils.log( filename, '_addPostFrameCallbackTriggered() (build completed)');
   }
 
   @override
